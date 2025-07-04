@@ -5,8 +5,8 @@ import (
 	"log"
 	"time"
 
-	"rabbitmq-json-example/pkg/messaging"
-	"rabbitmq-json-example/pkg/types"
+	"rabbitmq_learning/pkg/messaging"
+	"rabbitmq_learning/pkg/types"
 
 	"github.com/rabbitmq/amqp091-go"
 )
@@ -64,4 +64,3 @@ func main() {
 	log.Printf(" [*] Waiting for messages. To exit press CTRL+C")
 	<-forever
 }
-

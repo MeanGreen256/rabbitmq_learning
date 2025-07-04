@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"rabbitmq-json-example/pkg/messaging"
-	"rabbitmq-json-example/pkg/types"
+	"rabbitmq_learning/pkg/messaging"
+	"rabbitmq_learning/pkg/types"
 
 	"github.com/rabbitmq/amqp091-go"
 )
@@ -69,4 +69,3 @@ func main() {
 
 	log.Printf(" [x] Sent message: %s", msg.Content)
 }
-
